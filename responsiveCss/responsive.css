@@ -1,0 +1,39 @@
+@media (max-width: 1776px) {
+  .counter-box {
+    width: 286px !important;
+  }
+}
+@media (max-width: 1600px) {
+  .counter-box {
+    width: 255px !important;
+  }
+}
+@media (max-width: 1481px) {
+  .counter-box {
+    width: 237px !important;
+  }
+  .code-disply span {
+    font-size: 32px !important;
+    line-height: 79px !important;
+    padding: 0px 14px !important;
+  }
+  .number-disply p {
+    font-size: 15px !important;
+  }
+  .number-disply span {
+    font-size: 22px !important;
+  }
+}
+@media (max-width: 1340px) {
+}
+@media (max-width: 1168px) {
+  .header-logo {
+    width: 30% !important;
+  }
+  .header-nav-menu {
+    width: 40% !important;
+  }
+  .all-settings {
+    width: 30% !important;
+  }
+}

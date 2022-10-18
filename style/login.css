@@ -1,0 +1,99 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.form-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/laptop-macbook-iphone-apple-wallpaper-preview.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.form-section:after {
+  background: rgba(70, 70, 70, 0.671);
+  position: absolute;
+  content: "";
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  z-index: 9999;
+  position: relative;
+  max-width: 1324px;
+  width: 100%;
+  background: rgba(238, 238, 238, 0.87);
+  height: 700px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 3px rgb(180, 180, 180);
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.heading .title {
+  font-size: 25px;
+  font-weight: 600;
+  color: #141d66;
+}
+.heading p {
+  font-size: 12px;
+}
+.form .input-field {
+  position: relative;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+}
+.input-field input {
+  position: absolute;
+  width: 100%;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  border: 2px solid #5c66bd;
+  border-radius: 20px;
+  background: none;
+  height: 100%;
+  padding: 0 20px 0 40px;
+}
+.input-field i {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  font-size: 18px;
+  transform: translateY(-50%);
+}
+.checkbox-content input {
+  margin: 0px 5px 0px 5px;
+}
+.checkbox-content label {
+  font-size: 12px;
+}
+.input-field.button {
+  background: #081abe;
+  border-radius: 20px;
+  transition: all 0.4s ease-in;
+}
+.input-field.button:hover {
+  background: #0212aa;
+}
+.button input {
+  color: white;
+}
+
+.signup {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.signup a {
+  text-decoration: none;
+}

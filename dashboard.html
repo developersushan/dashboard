@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>dashboard</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/816e5ce8e9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./responsiveCss/responsive.css" />
+    <link rel="stylesheet" href="./style/dashboard.css" />
+  </head>
+  <body>
+    <!---header section start -->
+    <section class="header-section">
+      <div
+        class="main-header xl-12 lg-12 md-8 sm-8 d-flex justify-content-between"
+      >
+        <div class="header-logo ms-4">
+          <img src="./images/images-removebg-preview (1).png" alt="" />
+        </div>
+        <div class="header-nav-menu text-light">
+          <a href="#"><i class="fas fa-angle-double-left"></i></a>
+        </div>
+        <div class="all-settings">
+          <ul class="list-inline">
+            <li>
+              <a href="#" class="message"
+                ><i class="far fa-comment"></i>
+                <p class="count text-light">12</p></a
+              >
+            </li>
+            <li>
+              <a class="natify" href="#"
+                ><i class="far fa-bell"></i>
+                <p class="count text-light">15</p>
+              </a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-cog" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!---header section end -->
+    <!--mian dashboard section  start---------->
+    <section class="main-dashboard text-white">
+      <div class="dashboord d-flex">
+        <div class="profile-menu mt-4 mb-4 me-4">
+          <div class="profile mt-4 mb-2 d-flex justify-content-around">
+            <div class="profile-img ms-4">
+              <img src="./images/1625094828967.jpg" alt="" />
+            </div>
+            <div class="profile-name">
+              <h5>Md.Nazir Araf</h5>
+              <div class="active d-flex">
+                <span class="mt-2 me-1"></span>
+                <p>Online</p>
+              </div>
+            </div>
+            <a class="icon me-3" href="#"
+              ><i class="fa fa-sort-desc" aria-hidden="true"></i
+            ></a>
+          </div>
+          <!---profile left menu------>
+          <div class="profile-left-menu">
+            <ul class="list-inline">
+              <li>
+                <a class="active" href="#"
+                  ><img
+                    src="https://img.icons8.com/material-outlined/24/000000/dashboard-layout.png"
+                  />Dashboard</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="https://img.icons8.com/material-outlined/24/000000/phone-message.png"
+                  />Get Number</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="https://img.icons8.com/wired/64/000000/push-notifications.png"
+                  />Get Code</a
+                >
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="https://img.icons8.com/material-outlined/24/000000/mobile-email.png" />SMS
+                  Veryfication<i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#">
+                  <img
+                    src="https://img.icons8.com/material-outlined/24/000000/puppet-2.png"
+                  />Voice Veryfication</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="https://img.icons8.com/external-kmg-design-detailed-outline-kmg-design/64/000000/external-log-out-user-interface-kmg-design-detailed-outline-kmg-design.png"
+                  />Log Out</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--dashboard menu section start--------->
+        <section class="dashboard-menu mt-4 mb-4 me-4">
+          <!--counter section start------>
+          <div class="counter-section p-4 d-flex justify-content-around">
+            <div class="counter-box p-3 d-flex justify-content-around">
+              <div class="code-disply">
+                <span>120</span>
+              </div>
+              <div class="number-disply">
+                <p>Todays Number</p>
+                <span>120</span><br />
+                <a href="#">Get Number</a>
+              </div>
+            </div>
+            <div class="counter-box p-3 d-flex justify-content-around">
+              <div class="code-disply">
+                <span>188</span>
+              </div>
+              <div class="number-disply">
+                <p>Todays Code</p>
+                <span>55</span><br />
+                <a href="#">Get Code</a>
+              </div>
+            </div>
+            <div class="counter-box p-3 d-flex justify-content-around">
+              <div class="code-disply">
+                <span>550</span>
+              </div>
+              <div class="number-disply">
+                <p>Todays Balance</p>
+                <span>120$</span><br />
+                <a href="#">Add Credits</a>
+              </div>
+            </div>
+            <div class="counter-box p-3 d-flex justify-content-around">
+              <div class="code-disply">
+                <span>55</span>
+              </div>
+              <div class="number-disply">
+                <p>Changed Points</p>
+                <span>1200P</span><br />
+                <a href="#">Fund Convert</a>
+              </div>
+            </div>
+          </div>
+          <!--counter section end------>
+          <!-----overview section start------>
+          <section class="overview-section mt-4">
+            <div class="overview-flex d-flex justify-content-around">
+              <div class="left-overview-section me-3 p-3">
+                <div class="overview-descrip d-flex justify-content-around">
+                  <div class="overview text-center">
+                    <h4>Overview</h4>
+                    <p>Overview of All Data</p>
+                    <div class="count">
+                      <ul class="list-inline">
+                        <li>
+                          <span>500+</span>
+                          <p>Get Number</p>
+                        </li>
+                        <li>
+                          <span>6000+</span>
+                          <p>Get Code</p>
+                        </li>
+                        <li>
+                          <span>1200$</span>
+                          <p>Balance Credits</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="chart-list">
+                    <canvas id="myChartList" width="400"></canvas>
+                  </div>
+                </div>
+                <div class="summary d-flex justify-content-around">
+                  <div class="left-button text-center">
+                    <a class="button" href="#">Summary/Yr</a>
+                  </div>
+
+                  <div class="daily d-flex">
+                    <div class="left-daily d-flex">
+                      <div class="phone-icon">
+                        <i class="fa-solid fa-phone"></i>
+                      </div>
+                      <div class="phone-text text-center">
+                        <h4>221+</h4>
+                        <p>Daily Get Number</p>
+                      </div>
+                    </div>
+                    <div class="right-daily d-flex">
+                      <div class="phone-icon">
+                        <i class="fa-solid fa-phone"></i>
+                      </div>
+                      <div class="phone-text text-center">
+                        <h4>221+</h4>
+                        <p>Daily Get Code</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="right-overview-section ms-3 p-3 d-flex justify-content-around"
+              >
+                <div class="overview right-overview text-center">
+                  <h4>Overview</h4>
+                  <p>Thios Pie Chart showes the overview of using website</p>
+                  <div class="count">
+                    <ul class="list-inline">
+                      <li>
+                        <span>500+</span>
+                        <p>Get Number</p>
+                      </li>
+                      <li>
+                        <span>500+</span>
+                        <p>Get Number</p>
+                      </li>
+                      <li>
+                        <span>500+</span>
+                        <p>Get Number</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="chart-list">
+                  <canvas id="myChart" width="300"></canvas>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- letest-news and notify section start------ -->
+          <section class="letesd-section d-flex justify-content-around mt-3">
+            <div class="letesed-news me-3 p-3">
+              <h4 class="text-center">Letest News</h4>
+              <div class="carousel-section d-flex justify-content-between">
+                <div class="arrow">
+                  <a href="#"> <i class="fa-solid fa-arrow-left"></i></a>
+                </div>
+                <div class="carousel me-3 p-4 d-flex">
+                  <div class="carousel-img">
+                    <img
+                      src="./images/laptop-macbook-iphone-apple-wallpaper-preview.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="carousel-text">
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <div class="author d-flex">
+                      <img
+                        src="./images/laptop-macbook-iphone-apple-wallpaper-preview.jpg"
+                        alt=""
+                      />
+                      <p>Author</p>
+                    </div>
+                    <div class="date-time d-flex">
+                      <div class="time me-2">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>10:00PM</span>
+                      </div>
+                      <div class="data ms-2">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>27 Aug 22</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel ms-3 p-4 d-flex">
+                  <div class="carousel-img">
+                    <img
+                      src="./images/laptop-macbook-iphone-apple-wallpaper-preview.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="carousel-text">
+                    <h6>Lorem ipsum dolor sit amet.</h6>
+                    <div class="author d-flex">
+                      <img
+                        src="./images/laptop-macbook-iphone-apple-wallpaper-preview.jpg"
+                        alt=""
+                      />
+                      <p>Author</p>
+                    </div>
+                    <div class="date-time d-flex">
+                      <div class="time me-2">
+                        <i class="fa-regular fa-clock"></i>
+                        <span>10:00PM</span>
+                      </div>
+                      <div class="data ms-2">
+                        <i class="fa-solid fa-calendar-days"></i>
+                        <span>27 Aug 22</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="arrow">
+                  <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="notification ms-3">
+              <h6 class="text-center">Notification</h6>
+              <div class="manage-notify">
+                <a href="#">Manage Notification</a>
+              </div>
+              <div class="sms-box p-3">
+                <div class="notify-box">
+                  <div class="close">
+                    <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                  </div>
+                  <div class="head">
+                    <h5 class="mb-0">Lorem ipsum dolor sit amet.</h5>
+                    <p class="mb-0">
+                      there are agree with be safe welcome to boot
+                    </p>
+                  </div>
+                </div>
+
+                <div class="notify-box">
+                  <div class="close">
+                    <a href="#"><i class="fa-solid fa-xmark"></i></a>
+                  </div>
+                  <div class="head">
+                    <h5 class="mb-0">Lorem ipsum dolor sit amet.</h5>
+                    <p class="mb-0">
+                      there are agree with be safe welcome to boot
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="clear-all pe-2 ps-2 d-flex justify-content-between">
+                <a href="#">Expand</a>
+                <a href="#">Clear All</a>
+              </div>
+            </div>
+          </section>
+          <!-- letest-news and notify section end------ -->
+          <!-----overview section end------>
+        </section>
+      </div>
+    </section>
+
+    <!--mian dashboard section  end---------->
+
+    <!---footer section start------>
+    <section class="footer-section">
+      <div class="footer d-flex justify-content-between text-light">
+        <div class="footer-text">
+          <p>copyright@Devsushan/code2022</p>
+        </div>
+        <div class="footer-social-menu">
+          <ul class="list-inline mb-0">
+            <li>
+              <a href=""
+                ><i class="fa fa-facebook-square" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-linkedin-square" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-youtube-play" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!---footer section end------>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+    <script src="./chartjs/left-chart.js"></script>
+  </body>
+</html>
