@@ -43,6 +43,7 @@ body {
 /*----header section style start------*/
 .header-section {
   background: var(--dark-black);
+  width: 100%;
 }
 .header-logo {
   width: 20%;
@@ -129,10 +130,8 @@ p.count.text-light {
 }
 /*----header section style end------*/
 /**/
-.dashboord {
-  /* height: vh; */
-}
-/*-----profile-manu section start-----*/
+
+/*-----profile-menu section start-----*/
 .profile-menu {
   width: 18%;
   background: var(--dark-black);
@@ -161,6 +160,9 @@ p.count.text-light {
   border-bottom: 1px solid rgb(168, 168, 168);
 }
 .profile-left-menu ul li:nth-child(1) {
+  border-bottom: 3px solid var(--dark-turquoise);
+}
+.profile-left-menu ul li:hover {
   border-bottom: 3px solid var(--dark-turquoise);
 }
 .profile-left-menu ul li:nth-child(6) {
@@ -339,7 +341,7 @@ p.count.text-light {
   border-top: 2px solid var(--blue);
 }
 .carousel img {
-  width: 120px;
+  width: 100%;
   margin-right: 17px;
   height: 100px;
 }

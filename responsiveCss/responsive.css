@@ -2,6 +2,10 @@
   .counter-box {
     width: 286px !important;
   }
+  .myChartList {
+    width: 400px !important;
+    height: 200px !important;
+}
 }
 @media (max-width: 1600px) {
   .counter-box {
@@ -23,8 +27,111 @@
   .number-disply span {
     font-size: 22px !important;
   }
+  .phone-icon {
+    margin-right: 14px !important;
+    line-height: 52px !important;
+    width: 25% !important;
+    height: 65% !important;
+}
+.myChartList {
+  height: 199px !important;
+  width: 333px !important;
+}
+.phone-text h4 {
+  font-size: 20px !important;
+}
+.phone-text p {
+  font-size: 14px !important;
+}
+.overview {
+  width: 30% !important;
+}
+.carousel-text h6 {
+  font-size: 14px !important;
+}
+}
+@media(max-width:1443px){
+  .phone-text h4 {
+    font-size: 20px !important;
+  }
+  .phone-text p {
+    font-size: 14px !important;
+    margin-bottom: 0rem !important;
+  }
+  .phone-icon {
+    margin-right: 6px !important;
+    line-height: 52px !important;
+    width: 23% !important;
+    height: 82% !important;
+}
+
 }
 @media (max-width: 1340px) {
+  .profile-left-menu ul li a {
+    margin-left: 0px !important;
+}
+  .counter-box {
+    width: 206px !important;
+}
+.code-disply span {
+  font-size: 24px !important;
+}
+.number-disply p {
+  font-size: 13px !important;
+}
+.number-disply span {
+  font-size: 19px !important;
+}
+.myChartList {
+  width: 301px !important;
+  height: 200px !important;
+}
+.phone-text h4 {
+  font-size: 20px !important;
+}
+.phone-text p {
+  font-size: 14px !important;
+}
+.count ul li p {
+  margin-bottom: 2px;
+  font-size: 13px;
+}
+.count ul li span {
+  font-size: 16px;
+}
+}
+@media(max-width:1263px){
+  .overview {
+    width: 30% !important;
+}
+}
+@media(max-width:1233px){
+  .count ul li p {
+    font-size: 11px;
+}
+.count ul li span {
+  font-size: 17px;
+}
+.phone-icon {
+  width: 27% !important;
+  height: 86% !important;
+}
+.phone-text h4 {
+  font-size: 18px !important;
+}
+.phone-text p {
+  font-size: 13px !important;
+}
+.overview {
+  width: 30% !important;
+}
+.overview.right-overview.text-center p {
+  font-size: 14px !important;
+}
+.myChart {
+  width: 255px !important;
+  height: 255px !important;
+}
 }
 @media (max-width: 1168px) {
   .header-logo {
@@ -36,4 +143,333 @@
   .all-settings {
     width: 30% !important;
   }
+  .header-section {
+    width: 100% !important;
+}
+.right-overview-section.ms-3.p-3.d-flex.justify-content-around {
+  margin-left: 0rem !important;
+}
+.time.me-2 {
+  margin-right: 0rem !important;
+}
+.carousel {
+  flex-wrap: wrap !important;
+}
+.arrow {
+  padding: 0px 8px !important;
+  /* margin-left: 20px; */
+}
+}
+@media(max-width:1133px){
+  .myChartList {
+    width: 254px !important;
+    height: 196px !important;
+}
+.myChart {
+  width: 244px !important;
+  height: 244px !important;
+}
+.dashboard-menu {
+  width: 75% !important;
+}
+.profile-menu {
+  width: 25% !important;
+}
+.code-disply span {
+  font-size: 19px !important;
+}
+.counter-box {
+  width: 188px !important;
+}
+.number-disply a {
+  font-size: 11px !important;
+}
+.number-disply span {
+  font-size: 17px !important;
+}
+
+}
+
+@media (max-width: 1101px) {
+  .counter-box {
+    width: 175px !important;
+  }
+  .code-disply span {
+    padding: 0px 7px !important;
+}
+.code-disply span {
+  font-size: 20px !important;
+}
+.number-disply a {
+  font-size: 9px !important;
+}
+.phone-icon {
+  line-height: 45px !important;
+}
+.phone-text p {
+  font-size: 10px !important;
+}
+}
+@media(max-width:1024px){
+  .counter-box {
+    width: 158px !important;
+}
+.number-disply p {
+  font-size: 12px !important;
+}
+.number-disply span {
+  font-size: 17px !important;
+}
+.code-disply span {
+  font-size: 17px !important;
+}
+.myChart {
+  width: 213px !important;
+  height: 213px !important;
+}
+.count ul li span {
+  font-size: 17px !important;
+}
+.myChartList {
+  width: 247px !important;
+  height: 192px !important;
+}
+.phone-text p {
+  font-size: 10px !important;
+}
+.phone-text h4 {
+  font-size: 16px !important;
+}
+.phone-icon {
+  line-height: 37px !important;
+}
+
+}
+@media(max-width:912px){
+  .counter-section {
+    flex-wrap: wrap !important;
+    gap: 26px 0px !important;
+}
+.counter-box {
+  width: 250px !important;
+}
+.code-disply span {
+  font-size: 28px !important;
+}
+.number-disply a {
+  font-size: 14px !important;
+}
+.dashboard-menu {
+  width: 70% !important;
+}
+.profile-menu {
+  width: 30% !important;
+}
+.overview-flex.d-flex.justify-content-around {
+  flex-wrap: wrap;
+  gap: 23px 0px;
+}
+.left-overview-section {
+  width: 100% !important;
+  margin-right: 0rem !important;
+}
+.right-overview-section {
+  width: 100% !important;
+}
+.myChartList {
+  width: 400px !important;
+  height: 209px !important;
+}
+.myChart {
+  width: 287px !important;
+  height: 276px !important;
+}
+.profile-name h5 {
+  font-size: 16px !important;
+}
+section.letesd-section.d-flex.justify-content-around.mt-3 {
+  flex-wrap: wrap !important;
+  gap: 20px 0px !important;
+}
+.letesed-news {
+  margin-right: 0rem !important;
+  width: 100% !important;
+}
+.notification {
+  width: 100% !important;
+  margin-left: 0rem !important;
+}
+}
+@media(max-width:827px){
+  .counter-box {
+    width: 213px !important;
+  }
+
+}
+@media(max-width:771px) {
+  .all-settings ul li {
+    margin-left: 24px !important;
+}
+.counter-box {
+  width: 213px !important;
+}
+}
+@media(max-width:720px){
+  .myChartList {
+    width: 310px !important;
+}
+.profile-menu {
+  width: 33% !important;
+}
+.dashboard-menu {
+  width: 67% !important;
+}
+.counter-box {
+  width: 320px !important;
+}
+.number-disply p {
+  font-size: 16px !important;
+}
+.code-disply span {
+  font-size: 30px !important;
+}
+.number-disply a {
+  font-size: 14px !important;
+}
+.number-disply span {
+  font-size: 20px !important;
+}
+}
+@media(max-width:705px) {
+  .number-disply a {
+    font-size: 12px !important;
+}
+.counter-box {
+  width: 213px !important;
+}
+.profile-menu {
+  width: 38% !important;
+}
+.dashboard-menu {
+  width: 62% !important;
+}
+.counter-box {
+  width: 320px !important;
+}
+.number-disply p {
+  font-size: 16px !important;
+}
+.code-disply span {
+  font-size: 30px !important;
+}
+.number-disply a {
+  font-size: 14px !important;
+}
+.number-disply span {
+  font-size: 20px !important;
+}
+.myChartList {
+  width: 277px !important;
+}
+.carousel {
+  margin-right: 0rem !important;
+}
+.header-nav-menu {
+  width: 30% !important;
+}
+.all-settings {
+  width: 40% !important;
+}
+.carousel.carousel-active.me-3.p-4.d-flex {
+  display: none !important;
+}
+}
+@media(max-width:601px){
+  .counter-box {
+    width: 320px !important;
+  }
+  .number-disply p {
+    font-size: 16px !important;
+  }
+  .code-disply span {
+    font-size: 30px !important;
+  }
+  .number-disply a {
+    font-size: 14px !important;
+  }
+  .number-disply span {
+    font-size: 20px !important;
+  }
+  .profile-left-menu ul li a {
+    font-size: 13px !important;
+}
+.myChartList {
+  width: 210px !important;
+}
+.myChart {
+  width: 209px !important;
+  height: 209px !important;
+}
+.count ul li span {
+  font-size: 14px !important;
+}
+.count ul li p {
+  margin-bottom: 0px !important;
+}
+}
+@media(max-width:531px){
+  .overview-descrip.d-flex.justify-content-around {
+    /* flex-wrap: wrap !important; */
+}
+.left-button .button {
+  padding: 4px 2px !important;
+}
+.phone-icon {
+  margin-right: -4px !important;
+}
+.profile-menu {
+  width: 25% !important;
+}
+.dashboard-menu {
+width: 65% !important;
+}
+.profile-img img {
+  max-width: 100% !important;
+}
+.profile-img.ms-4 {
+  margin-left: 0rem !important;
+}
+.profile-name h5 {
+  font-size: 12px !important;
+}
+.active.d-flex p {
+  font-size: 10px !important;
+}
+.header-nav-menu {
+  width: 20% !important;
+}
+.all-settings {
+  width: 60% !important;
+}
+.header-logo {
+  display: none !important;
+}
+}
+@media(max-width:458px){
+  .profile-left-menu ul li a img {
+    width: 18px !important;
+    margin-right: 5px !important;
+}
+.profile-left-menu ul li a {
+  font-size: 10px !important;
+}
+.overview-descrip.d-flex.justify-content-around {
+  flex-wrap: wrap !important;
+}
+.right-overview-section.ms-3.p-3.d-flex.justify-content-around {
+  flex-wrap: wrap !important;
+}
+.overview {
+  width: 100% !important;
+}
 }
