@@ -87,6 +87,17 @@ table >tbody td i {
   .search-here {
     width: 55% !important;
 }
+@media(max-width:853px){
+  .search-code-header {
+    display: block !important;
+}
+.search-here {
+  width: 100% !important;
+}
+.get-code {
+  width: 100% !important;
+}
+}
 @media(max-width:805px){
   table >thead th {
     padding: 9px;
@@ -99,6 +110,25 @@ table >tbody td i {
       margin-left: 24px !important;
   }
   }
+  @media(max-width:749px){
+    table >thead th {
+      padding: 7px;
+      font-size: 11px;
+  }
+  table >tbody > tr > td img {
+    width: 30px;
+    height: 30px;
+}
+table >tbody td i {
+  font-size: 17px;
+}
+table >tbody td {
+  font-size: 12px;
+}
+table>tbody > tr > td a {
+  font-size: 10px;
+}
+  }
   @media(max-width:720px){
 
   .profile-menu {
@@ -107,6 +137,9 @@ table >tbody td i {
   .dashboard-menu {
     width: 67% !important;
   }
+  .table-code-section {
+    padding: 21px 29px !important;
+ }
   }
   @media(max-width:705px) {
   .profile-menu {
@@ -120,6 +153,18 @@ table >tbody td i {
   }
   .all-settings {
     width: 40% !important;
+  }
+  .table-code-section {
+    padding: 21px 4px !important;
+}
+
+  }
+  @media(max-width:618px){
+    table >thead th {
+      font-size: 9px;
+  }
+  table >tbody td i {
+    font-size: 15px;
   }
   }
   @media(max-width:601px){
