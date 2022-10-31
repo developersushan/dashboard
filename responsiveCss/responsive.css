@@ -454,6 +454,19 @@ width: 65% !important;
 .header-logo {
   display: none !important;
 }
+.footer-text p {
+  display: none !important;
+
+}
+.footer.d-flex.justify-content-between.text-light {
+  justify-content: center !important;
+}
+.footer-social-menu ul li {
+  margin-right: 19px !important;
+}
+.footer-social-menu {
+  margin-right: 0px !important;
+}
 }
 @media(max-width:458px){
   .profile-left-menu ul li a img {
