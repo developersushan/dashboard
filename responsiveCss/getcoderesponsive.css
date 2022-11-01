@@ -166,11 +166,48 @@ table>tbody > tr > td a {
   table >tbody td i {
     font-size: 15px;
   }
+  .previous ul li a {
+    font-size: 10px !important;
+}
+.profile-name h5 {
+  font-size: 13px !important;
+  margin-top: 6px !important;
+}
+.active p {
+  font-size: 13px !important;
+}
+.profile-img img {
+  max-width: 44px !important;
+}
+.search-here.d-flex {
+  display: block !important;
+}
+.form-search {
+  width: 100% !important;
+}
+.form-search.d-flex {
+  justify-content: space-between !important;
+}
+.search-here ul {
+  margin-top: 1rem !important;
+}
   }
   @media(max-width:601px){
     .profile-left-menu ul li a {
       font-size: 13px !important;
   }
+  }
+  @media(max-width:566px){
+    table >thead th {
+      font-size: 8px;
+  }
+  table >tbody > tr > td img {
+    width: 25px;
+    height: 25px;
+}
+table>tbody > tr > td a {
+  font-size: 9px;
+}
   }
   @media(max-width:531px){
   .profile-menu {
@@ -180,13 +217,13 @@ table>tbody > tr > td a {
   width: 65% !important;
   }
   .profile-img img {
-    max-width: 100% !important;
-  }
-  .profile-img.ms-4 {
-    margin-left: 0rem !important;
+    max-width: 37px !important;
   }
   .profile-name h5 {
-    font-size: 12px !important;
+    font-size: 11px !important;
+}
+  .profile-img.ms-4 {
+    margin-left: 0rem !important;
   }
   .active.d-flex p {
     font-size: 10px !important;
@@ -213,6 +250,15 @@ table>tbody > tr > td a {
   .footer-social-menu {
     margin-right: 0px !important;
   }
+  }
+  @media(max-width:464px){
+    table >thead th {
+      padding: 5px;
+      font-size: 8px;
+  }
+  table >tbody td {
+    padding: 6px 0px;
+}
   }
   @media(max-width:458px){
     .profile-left-menu ul li a img {
