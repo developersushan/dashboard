@@ -63,21 +63,6 @@
   .profile-menu {
     width: 30% !important;
   }
-  table >thead th {
-    padding: 10px;
-    font-size: 14px;
-}
-table >tbody > tr > td img {
-  width: 40px;
-  height: 40px;
-}
-table>tbody > tr > td a {
-  font-size: 13px;
-  padding: 5px 8px;
-}
-table >tbody td i {
-  font-size: 22px;
-}
   }
 
   @media(max-width:891px){
@@ -99,10 +84,7 @@ table >tbody td i {
 }
 }
 @media(max-width:805px){
-  table >thead th {
-    padding: 9px;
-    font-size: 12px;
-}
+
 }
   }
   @media(max-width:771px) {
@@ -111,23 +93,7 @@ table >tbody td i {
   }
   }
   @media(max-width:749px){
-    table >thead th {
-      padding: 7px;
-      font-size: 11px;
-  }
-  table >tbody > tr > td img {
-    width: 30px;
-    height: 30px;
-}
-table >tbody td i {
-  font-size: 17px;
-}
-table >tbody td {
-  font-size: 12px;
-}
-table>tbody > tr > td a {
-  font-size: 10px;
-}
+
   }
   @media(max-width:720px){
 
@@ -160,12 +126,6 @@ table>tbody > tr > td a {
 
   }
   @media(max-width:618px){
-    table >thead th {
-      font-size: 9px;
-  }
-  table >tbody td i {
-    font-size: 15px;
-  }
   .previous ul li a {
     font-size: 10px !important;
 }
@@ -198,16 +158,7 @@ table>tbody > tr > td a {
   }
   }
   @media(max-width:566px){
-    table >thead th {
-      font-size: 8px;
-  }
-  table >tbody > tr > td img {
-    width: 25px;
-    height: 25px;
-}
-table>tbody > tr > td a {
-  font-size: 9px;
-}
+
   }
   @media(max-width:531px){
   .profile-menu {
@@ -252,13 +203,6 @@ table>tbody > tr > td a {
   }
   }
   @media(max-width:464px){
-    table >thead th {
-      padding: 5px;
-      font-size: 8px;
-  }
-  table >tbody td {
-    padding: 6px 0px;
-}
   }
   @media(max-width:458px){
     .profile-left-menu ul li a img {
@@ -269,16 +213,7 @@ table>tbody > tr > td a {
     font-size: 10px !important;
   }
   }
-
   @media(max-width:445px){
-    table >tbody > tr > td img {
-      width: 18px;
-      height: 18px;
-  }
-  table >thead th {
-    padding: 0px;
-    font-size: 8px;
-}
 .previous.mt-5.d-flex.justify-content-end {
   margin-top: 1rem !important;
 }
