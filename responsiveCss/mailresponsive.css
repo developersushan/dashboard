@@ -4,9 +4,20 @@
       margin-left: 0px !important;
   }
   }
-  @media(max-width:1263px){
+  @media(max-width:1200px){
+    .mail-section {
+      gap: 17px !important;
   }
-  @media(max-width:1233px){
+  .mail-box {
+    width: 248px !important;
+}
+.mail-img img {
+  width: 71% !important;
+}
+.mail-head {
+  width: 198px !important;
+  margin-top: 20px !important;
+}
   }
   @media (max-width: 1168px) {
     .header-logo {
@@ -37,6 +48,11 @@
   .get-code {
     width: 35% !important;
 }
+  }
+  @media(max-width:992px){
+    .react-icon a i {
+      font-size: 25px !important;
+  }
   }
   @media(max-width:913px){
     .form-search {
@@ -92,11 +108,10 @@
       margin-left: 24px !important;
   }
   }
-  @media(max-width:749px){
+  @media(max-width:768px){
 
   }
   @media(max-width:720px){
-
   .profile-menu {
     width: 33% !important;
   }
@@ -202,7 +217,24 @@
     margin-right: 0px !important;
   }
   }
-  @media(max-width:464px){
+  @media(max-width:468px){
+    .mail-box {
+      width: 100% !important;
+  }
+  .mail-img {
+    width: 100% !important;
+    text-align: center;
+}
+.mail-text a {
+  padding: 3px 3px !important;
+  font-size: 12px !important;
+}
+.mail-text {
+  width: 100% !important;
+}
+.mail-text h5 {
+  font-size: 1rem !important;
+}
   }
   @media(max-width:458px){
     .profile-left-menu ul li a img {
@@ -222,3 +254,8 @@
   padding: 2px 4px !important;
 }
   }
+@media(max-width:326px){
+  .table-section.p-4 {
+    padding: 0rem !important;
+}
+}
