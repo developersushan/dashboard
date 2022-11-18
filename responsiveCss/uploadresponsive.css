@@ -1,0 +1,41 @@
+@media (max-width:1267px){
+    .add-image span {
+        font-size: 17px !important;
+    }
+}
+@media(max-width:1024px){
+    .button-btn button {
+        font-size: 13px !important;
+    }
+    .add-image span {
+        font-size: 16px !important;
+    }
+    .link.mt-4 {
+        font-size: 14px !important;
+    }
+}
+@media(max-width:900px){
+    .add-image span {
+        font-size: 14px !important;
+    }
+}
+@media(max-width:768px){
+    .add-image {
+        display: block !important;
+        padding: 5px 20px !important
+    }
+    .button-btn.pb-4 {
+        padding-bottom: 0rem !important;
+    }
+    .link.mt-4 {
+        margin-top: 0rem !important;
+    }
+}
+@media(max-width:624px){
+    .images img {
+        max-width: 100%;
+    }
+    .done-images-btn button {
+        font-size: 18px !important;
+    }
+}
