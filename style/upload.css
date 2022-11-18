@@ -48,6 +48,10 @@
     border-radius: 6px;
     border: 1px solid white;
     background: #fe3cd7;
+    transition: all 0.2s ease-in-out;
+}
+.close:hover{
+    background: #111111;
 }
 .close a span{
     color: white;
