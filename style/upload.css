@@ -6,7 +6,62 @@
 .main-section{
     width: 70%;  
 }
-
-.images img{
-    max-width: 100%;
+.add-image{
+    border: 1px solid #dddd;
+    background-color: aliceblue;
+}
+.add-image span{
+    font-size: 25px;
+}
+.button-btn button {
+    font-size: 16px;
+    padding: 8px;
+    font-weight: 500;
+    border: none;
+    border: 1px solid #dddd;
+    box-shadow: 2px 3px 0px 0px #a9a9a9;
+    border-radius: 11px;
+    transition: all 0.2s ease-in-out;
+}
+.button-btn button:hover {
+    background: #d6d6d6;
+    /* color: wheat; */
+}
+.featured-image {
+    width: 95%;
+    border: 1px solid #ddd;
+    /* padding: 10px; */
+    background: #eaeaeadd;
+    flex-wrap: wrap;
+}
+.images{
+    border: 1px solid aliceblue;
+    position: relative;
+}
+.close {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    width: 33px;
+    text-align: center;
+    /* color: white !important; */
+    border-radius: 6px;
+    border: 1px solid white;
+    background: #fe3cd7;
+}
+.close a span{
+    color: white;
+}
+.images img {
+    width: 415px;
+}
+.done-images-btn {
+    
+    float: right;
+}
+.done-images-btn button {
+    border: none;
+    padding: 2px;
+    font-size: 21px;
+    width: 200px;
 }
